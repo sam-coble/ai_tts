@@ -2,9 +2,15 @@
 <html>
 <head>
 	<script src="https://p5js.org/assets/js/p5.min.js?v=10cd93"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.speech/1.0.0/p5.speech.min.js"></script>
+	<!-- <script src="https://p5js.org/assets/js/p5.sound.min.js"></script> -->
+	<script src="p5.sound.min.js"></script>
 	<script>
-		
+		let sound;
+		addEventListener('click', (event) => {playAudio();});
+		function playAudio() {
+			console.log('running');
+			sound = p5.prototype.loadSound('getAudio');
+		}
 	</script>
 </head>
 <body>
