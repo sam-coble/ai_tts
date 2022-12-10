@@ -1,0 +1,23 @@
+{
+  "name": "ai_tts",
+  "version": "1.0.0",
+  "description": "Generates responses to Twitch chat messages using ChatGPT AI then plays TTS of response using uberduck.ai",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-coble/ai_tts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-coble/ai_tts/issues"
+  },
+  "homepage": "https://github.com/sam-coble/ai_tts#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
